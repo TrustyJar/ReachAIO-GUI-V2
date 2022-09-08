@@ -1,0 +1,73 @@
+{
+  "name": "reachaio",
+  "productName": "reachaio",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": {
+    "name": "Trusty",
+    "email": "admin@splashaio.com"
+  },
+  "license": "MIT",
+  "config": {
+    "forge": {
+      "packagerConfig": {},
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {
+            "name": "reachaio"
+          }
+        },
+        {
+          "name": "@electron-forge/maker-zip",
+          "platforms": [
+            "darwin"
+          ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cookie-parser": "^1.4.6",
+    "discord-webhook-node": "^1.1.8",
+    "edit-json-file": "^1.7.0",
+    "electron-installer-dmg": "^4.0.0",
+    "electron-packager": "^15.5.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "global": "^4.4.0",
+    "headerconvert": "^1.0.1",
+    "node-cron": "^3.0.1",
+    "node-schedule": "^2.1.0",
+    "path": "^0.12.7",
+    "qs": "^6.11.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.65",
+    "@electron-forge/maker-deb": "^6.0.0-beta.65",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.65",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.65",
+    "@electron-forge/maker-zip": "^6.0.0-beta.65",
+    "electron": "20.0.1"
+  }
+}

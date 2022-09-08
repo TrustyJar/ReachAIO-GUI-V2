@@ -1,0 +1,61 @@
+.header {
+    background-image: url("https://wallpaper.dog/large/20447111.jpg");
+    background-color: #5b0616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #000000df;
+    margin: 0px;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    vertical-align: auto;
+  }
+  .welcomeMes {
+    position: absolute;
+    font-size: calc(150% + 2vmin);
+    color: #d7d7d7df;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 40%;
+    left: center;
+  }
+
+  .btn-submit-class {
+    position: absolute;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #141414df;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-bottom: 4px solid #000000;
+    font-weight: 700;
+    color: white;
+    line-height: 26px;
+    top: 60%;
+    left: 44%;     
+  }
+
+  .bottomMes {
+    position: absolute;
+    font-size: calc(40% + 2vmin);
+    font-weight: 300;
+    color: #d7d7d7df;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    top: 90%;
+    left: 2%;
+  }

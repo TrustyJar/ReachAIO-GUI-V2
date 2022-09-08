@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+  <header class="header">
+    <body>
+      <h1 class="welcomeMes">Welcome to ReachAIO V2</h1>
+      <form action="http://localhost:4430/post" method="post">
+        <h1 class="emailHeader">Email</h1>
+        <input class="email" type="text" placeholder="Enter Email" name="email" required>
+        <h1 class="passHeader">Password</h1>
+        <input class="pass" type="password" placeholder="Enter Password" name="pass" required>
+
+        <label class="timeHeader" for="appt">Select your task schedule:</label>
+        <input class="schedTime" type="time" id="appt" name="appt" min="00:01" max="23:59" required>
+
+        <button class="btn-submit-class" type="submit" name="submit" onclick="addJSON()">Start Tasks</button>
+      </form>
+      <h1 class="bottomMes">Made by TrustyJar#1234</h1>
+    </body>
+    <script>
+      function addJSON() {
+        alert("Tasks are running!");
+      }
+    </script>
+</header>
+</html>
