@@ -20,4 +20,4 @@ This is the monitor page. If you see this page, that means that your tasks are q
 
 This is the popup you will see when your tasks have successfully started. Once you see this, you should be redirected to the monitor page. You will also get a similar popup when starting tasks, then be redirected to the main page. 
 
-<img src="https://i.ibb.co/f4hnhmp/Screen-Shot-2022-09-07-at-11-42-35-PM.png" width="350" height="350">
+<img src="https://i.ibb.co/f4hnhmp/Screen-Shot-2022-09-07-at-11-42-35-PM.png" width="475" height="350">
