@@ -10,7 +10,7 @@ const sendEmbeded = (theContent, error, message) => {
 
     if(error == "true") {
 
-        const hook = new Webhook("https://discord.com/api/webhooks/935752553830940693/O5F2SLDZBRg0MkiI7-xqwn4rUEgVfxLOmT71kT8SrZo_tEE-4E2q6ATe7BeITJBrrn0k");
+        const hook = new Webhook("RETRACTED");
 
         hook.setUsername('ReachAIO V2');
         hook.setAvatar('https://i.ibb.co/0JbfbHD/Screen-Shot-2022-08-08-at-11-28-10-PM.png');
@@ -28,7 +28,7 @@ const sendEmbeded = (theContent, error, message) => {
 
     } else {
 
-        const hook = new Webhook("https://discord.com/api/webhooks/935752553830940693/O5F2SLDZBRg0MkiI7-xqwn4rUEgVfxLOmT71kT8SrZo_tEE-4E2q6ATe7BeITJBrrn0k");
+        const hook = new Webhook("RETRACTED");
 
         hook.setUsername('ReachAIO V2');
         hook.setAvatar('https://i.ibb.co/0JbfbHD/Screen-Shot-2022-08-08-at-11-28-10-PM.png');
