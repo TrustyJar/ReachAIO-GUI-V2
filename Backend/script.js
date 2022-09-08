@@ -9,9 +9,9 @@ async function postLogin(theContent) {
     try {
         const response = await axios({
             method: 'POST',
-            url: 'https://choate.reachboarding.com/Authenticate',
+            url: 'RETRACTED',
             headers: {
-                "Host": "choate.reachboarding.com",
+                "Host": "RETRACTED",
                 "Cookie": "src=web;",
                 "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0",
                 "Accept": "*/*",
@@ -19,8 +19,8 @@ async function postLogin(theContent) {
                 "Accept-Encoding": "gzip, deflate",
                 "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
                 "X-Requested-With": "XMLHttpRequest",
-                "Origin": "https://choate.reachboarding.com",
-                "Referer": "https://choate.reachboarding.com/",
+                "Origin": "RETRACTED",
+                "Referer": "RETRACTED",
                 "Sec-Fetch-Dest": "empty",
                 "Sec-Fetch-Mode": "cors",
                 "Sec-Fetch-Site": "same-origin",
@@ -56,9 +56,9 @@ async function setInHouse(tokenID, theContent) {
   try {
     const response = await axios({
         method: 'POST',
-        url: 'https://choate.reachboarding.com/SetBoarderLocation',
+        url: 'RETRACTED',
         headers: {
-          "Host": "choate.reachboarding.com",
+          "Host": "RETRACTED",
           "Cookie": `src=web; authToken=${tokenID}`,
           "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:102.0) Gecko/20100101 Firefox/102.0",
           "Accept": "application/json, text/javascript, */*; q=0.01",
@@ -67,8 +67,8 @@ async function setInHouse(tokenID, theContent) {
           "Content-Type": "application/json",
           "X-Requested-With": "XMLHttpRequest",
           "Content-Length": "108",
-          "Origin": "https://choate.reachboarding.com",
-          "Referer": "https://choate.reachboarding.com/",
+          "Origin": "RETRACTED,
+          "Referer": "RETRACTED",
           "Sec-Fetch-Dest": "empty",
           "Sec-Fetch-Mode": "cors",
           "Sec-Fetch-Site": "same-origin",
